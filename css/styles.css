@@ -739,12 +739,13 @@ progress {
 
 .col-2 {
   flex: 0 0 auto;
-  width: 16.66666667%;
+  width: 20%;
 }
 
 .col-3 {
   flex: 0 0 auto;
   width: 25%;
+  vertical-align: 0;
 }
 
 .col-4 {
