@@ -11090,12 +11090,6 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-.top-right-image {
-  position: relative;
-  left: 8rem;
-  width: 20rem;
-  height: auto;
-}
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -11108,6 +11102,45 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .col-left {
+    flex: 0 0 auto;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .col-right {
+    display: none
+  }
+
+  .top-right-image {
+    display: none
+  }
+}
+
+@media (min-width: 1001px) {
+  .col-left {
+    flex: 0 0 auto;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  .col-right {
+    flex: 0 0 auto;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  .top-right-image {
+    position: relative;
+    left: 2%;
+    width: 60%;
+    height: auto;
   }
 }
 
